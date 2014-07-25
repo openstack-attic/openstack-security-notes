@@ -53,7 +53,7 @@ Keystone API directly:
 If some trust (with id TRUST_ID) is identified as invalid, it can be
 deleted using:
 
----- being CLI example ----
+---- begin CLI example ----
     curl -i -X DELETE "ENDPOINT/trusts/TRUST_ID" \
       -H "X-Auth-Token: TOKEN" -H "Content-Type: application/json" \
       -H "Accept: application/json"
